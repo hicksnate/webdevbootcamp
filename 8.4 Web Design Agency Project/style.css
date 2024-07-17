@@ -9,7 +9,23 @@ body {
 .main {
   flex: 1;
 }
-
+.tile-image{
+  float: left;
+  height: 200px;
+  margin-right: 50px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.card{
+  width: 45%;
+}
+.creative{
+  color: blue;
+}
 h1 {
   font-size: 5rem;
 }
@@ -17,5 +33,27 @@ h1 {
 footer {
   text-align: right;
   color: midnightblue;
+}
+@media (max-width: 600px){
+  .logo{
+    width: 100px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .card img{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  }
 }
 
