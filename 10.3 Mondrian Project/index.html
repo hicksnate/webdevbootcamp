@@ -30,24 +30,43 @@
       background-color: #000;
       gap: 10px;
       display: grid;
-      grid-template-rows: 414px 294px 20px;
-      grid-template-columns: 320px 418px;
+      grid-template-rows: 414px 315px 50px 50px ;
+      grid-template-columns: 320px 198px 153px 50px;
       
     }
     .red{
       background-color: #ef2f24;
     }
-    .white{
+    .white1{
       background-color: #f0f1ec;
+      grid-column: span 3;
+    }
+    .white2{
+      background-color: #f0f1ec;
+      
+    }
+    .white3{
+      background-color: #f0f1ec;
+      grid-column: span 2;
+    }
+    .white4{
+      background-color: #f0f1ec;
+      grid-area: 2 / 2 / 4 /4;
+    }
+    .white5{
+      background-color: #f0f1ec;
+      
     }
     .black{
       background-color: #232629;
     }
     .blue{
       background-color: #004592;
+      height: 130px;
     }
     .yellow{
       background-color: #f9d01e;
+     
     }
     
   </style>
@@ -58,15 +77,15 @@
   <div class="outer-container">
     <div class="container">
       <div class="red"></div>
-      <div class="white"></div>
-      <div class="white"></div>
-     <div class="white flex-container">
-        <div class="flex-item1"></div>
-        <div class="flex-item2"></div>
-      </div>
-      <div class="white"></div>
-      <div></div>
-    </div>    
+      <div class="white1"></div>
+      <div class="white2"></div>
+      <div class="white3"></div>
+      <div class="blue"></div>
+      <div class="white4"></div>
+      <div class="white5"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+    </div>
   </div>
 </body>
 
